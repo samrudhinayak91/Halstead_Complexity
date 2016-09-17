@@ -90,7 +90,7 @@ public class TestParser {
 		}
 		public double getproglength(int totaloperators,int totaloperands)
 		{
-			return totaloperators+totaloperands;
+			return (totaloperators+totaloperands);
 		}
 		public double getprogvocab(double namesize,double snamesize)
 		{
